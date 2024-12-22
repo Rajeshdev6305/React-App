@@ -1,6 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import AccordionTable from './AccordionTablecomponent/accordiontablecomp';
+import logo from "./logo.svg";
+import "./App.css";
+import AccordionTable from "./AccordionTablecomponent/accordiontablecomp";
 // import LifeCycle from './Lifecycle/LifeCycle';
 
  function App() {
@@ -222,7 +222,7 @@ import AccordionTable from './AccordionTablecomponent/accordiontablecomp';
         <AccordionTable
           key={a.id}
           title={a.title}
-          info={a.description}  
+          info={a.description}
           price={a.price}
           id={a.id}
           category={a.category}
@@ -232,33 +232,25 @@ import AccordionTable from './AccordionTablecomponent/accordiontablecomp';
     </div>
   );
 }
+export default App;
 
 
-    // return (
-    //  <div className="App">
-    //    <header className="App-header">
-    //      <img src={logo} className="App-logo" alt="logo" />
-    //      <p>
-    //        Edit <code>src/App.js</code> and save to reload.
-    //      </p>
-    //      <a
-    //       className="App-link"
-    //        href="https://reactjs.org"
-    //        target="_blank"
-    //        rel="noopener noreferrer"
-    //      >
-    //        Learn React
-    //      </a>
-    //    </header> 
-    //  </div>
-    // <LifeCycle/>
-
-  
-
- export default App;
-
- 
-
-
-
+// return (
+//  <div className="App">
+//    <header className="App-header">
+//      <img src={logo} className="App-logo" alt="logo" />
+//      <p>
+//        Edit <code>src/App.js</code> and save to reload.
+//      </p>
+//      <a
+//       className="App-link"
+//        href="https://reactjs.org"
+//        target="_blank"
+//        rel="noopener noreferrer"
+//      >
+//        Learn React
+//      </a>
+//    </header>
+//  </div>
+// <LifeCycle/>
 

@@ -24,7 +24,9 @@ import FormEvents from "./FormEvents/FormEvents";
 import LoginApi from "./LoginApi/LoginApi";
 import COUNTER from "./COUNTER/COUNTER";
 import UseEffect from "./UseEffect/UseEffect";
+import Auth from "./Auth";
 import AppRouter from "./Router/Router";
+import DynamicRouters from "./Dynamic.Router/DynamicRouters";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -42,14 +44,16 @@ root.render(
     {/* <EvenOddChecker/>*/}
     {/* <Todolist/>  */}
     {/* <LifeCycle/> */}
-    <UpdatingPhase />
+    {/* <UpdatingPhase /> */}
     {/* <FunctionalCounter/> */}
     {/* <Calculator/>  */}
     {/* <FormEvents/>  */}
     {/* <LoginApi/> */}
     {/* <COUNTER/> */}
     {/* <UseEffect/> */}
-    {/* <AppRouter /> */}
+    {/* <Auth/> */}
+    {/* <DynamicRouters/> */}
+    <AppRouter />
   </React.StrictMode>
 );
 
