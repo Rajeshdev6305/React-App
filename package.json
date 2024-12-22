@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Rajeshdev6305.github.io/React-App/.",
   "name": "myfirstreactapp",
   "version": "0.1.0",
   "private": true,
@@ -14,12 +15,12 @@
     "react-dom": "^18.3.1",
     "react-router": "^7.1.0",
     "react-router-dom": "^6.28.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -r https://github.com/Rajeshdev6305/React-App.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,5 +47,8 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  }
 }
